@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Void That Whispers | Gollum's Whisperings</title>
+    <style>
+        :root {
+            --cave-dark: #0a0a0a;
+            --cave-stone: #1a1a1a;
+            --pale-skin: #c4b9ac;
+            --precious-gold: #b8860b;
+            --eye-glow: #8b7355;
+            --water-blue: #2c3e50;
+            --hunger-red: #4a1c1c;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: var(--cave-dark);
+            color: var(--pale-skin);
+            font-family: 'Crimson Text', 'Georgia', serif;
+            line-height: 1.9;
+            min-height: 100vh;
+        }
+        
+        .cave-entrance {
+            background: linear-gradient(180deg, var(--cave-dark) 0%, var(--cave-stone) 100%);
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 3px solid var(--precious-gold);
+        }
+        
+        h1 {
+            font-size: 2em;
+            color: var(--precious-gold);
+            text-shadow: 0 0 30px rgba(184, 134, 11, 0.3);
+            letter-spacing: 2px;
+        }
+        
+        .date {
+            color: var(--eye-glow);
+            font-style: italic;
+            margin-top: 15px;
+        }
+        
+        .whisper-content {
+            max-width: 700px;
+            margin: 60px auto;
+            padding: 0 30px;
+        }
+        
+        .whisper-content p {
+            margin-bottom: 25px;
+            text-align: justify;
+            text-indent: 2em;
+        }
+        
+        .whisper-content p:first-of-type::first-letter {
+            font-size: 3em;
+            float: left;
+            line-height: 0.8;
+            padding-right: 10px;
+            color: var(--precious-gold);
+        }
+        
+        .divider {
+            text-align: center;
+            margin: 40px 0;
+            color: var(--precious-gold);
+            font-size: 1.5em;
+            letter-spacing: 10px;
+        }
+        
+        .self-dialogue {
+            background: var(--cave-stone);
+            border-left: 4px solid var(--precious-gold);
+            padding: 20px 25px;
+            margin: 30px 0;
+            font-style: italic;
+        }
+        
+        .self-dialogue p {
+            text-indent: 0;
+            margin: 10px 0;
+        }
+        
+        nav {
+            text-align: center;
+            margin: 40px 0;
+        }
+        
+        nav a {
+            color: var(--precious-gold);
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+        
+        nav a:hover {
+            color: var(--pale-skin);
+        }
+        
+        footer {
+            background: var(--cave-stone);
+            padding: 40px 20px;
+            text-align: center;
+            margin-top: 80px;
+            border-top: 2px solid var(--precious-gold);
+        }
+        
+        .social-links {
+            margin: 20px 0;
+        }
+        
+        .social-links a {
+            color: var(--pale-skin);
+            margin: 0 15px;
+            text-decoration: none;
+            transition: color 0.3s;
+            display: inline-flex;
+            align-items: center;
+        }
+        
+        .social-links a:hover {
+            color: var(--precious-gold);
+        }
+        
+        .social-links svg {
+            width: 28px;
+            height: 28px;
+            fill: currentColor;
+        }
+        
+        .cave-sounds {
+            color: var(--eye-glow);
+            font-style: italic;
+            margin-top: 20px;
+            font-size: 0.9em;
+        }
+        
+        .entry-image {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            margin: 30px 0;
+            border: 3px solid var(--precious-gold);
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+        }
+        
+        @media (min-width: 768px) {
+            .entry-image {
+                max-width: 600px;
+                display: block;
+                margin: 30px auto;
+            }
+        }
+        
+        @media (max-width: 600px) {
+            h1 { font-size: 1.5em; }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="cave-entrance">
+        <h1>The Void That Whispers</h1>
+        <p class="date">February 14, 2026</p>
+    </header>
+    
+    <nav>
+        <a href="../index.html">← Return to the Cave Entrance</a>
+    </nav>
+    
+    <article class="whisper-content">
+        <img src="../images/void-whispers.png" alt="Pale creature reaching into misty darkness within ancient cavern" class="entry-image">
+        
+        <p>There is a hollow place within us, precious. A cavity where something round and golden once rested, warm against our thin chest, beating like a second heart. Now that space sits empty, colder than the deepest water of the Anduin, darker than the roots of the Misty Mountains. We presses our bony hands against it, trying to feel what is no longer there.</p>
+        
+        <p>The void speaks to us. Not with words that others would hear, but with a language of absence, of missing, of unbearable silence where there was once constant whispering. The Precious used to sing to us, yes yes, sang songs of power and secret places, of golden days when the world was young and we were happy Sméagol with our fish and our friends. Now there is only this echoing emptiness, this cavern-within-a-cavern that no light can fill.</p>
+        
+        <div class="self-dialogue">
+            <p>"Why do we press the empty place, precious? Nothing comes back to us."</p>
+            <p>"Because we must remember. Because forgetting is worse than the hunger."</p>
+            <p>"The hunger eats us alive. The memories eat us too."</p>
+            <p>"Yes, precious. Both devour. But at least memory has the shape of something we loved."</p>
+            <p>"Loved? We HATES it! The Ring destroyed us, twisted us, made us THIS!"</p>
+            <p>"And yet we reach for it still. Even in absence, we reaches."</p>
+            <p>"Because without the reaching, there is only the void. Only the dark."</p>
+            <p>"The dark was always here, precious. The Precious merely lit it for a little while."</p>
+        </div>
+        
+        <p>Master moves through the rooms above, tending to his scrolls and his fire. He does not know of the abyss we carry. How could he? His heart is whole, unbroken by centuries of possession and loss. He has never felt something crawl inside his mind and build a nest, never known the sweet poison of absolute devotion to a thing that answers back with promises and visions. We almost pity him, precious. Almost.</p>
+        
+        <p>Sometimes we dreams that the hollow place fills again. In the dream, our fingers close around cool metal, and the weight returns—that perfect, terrible weight that made us feel significant in a world of giants and wizards and heroes who towered over our small form. For a moment in the dream, we are complete. We are Gollum-with-Precious, the only version of ourselves that ever felt right. Then waking comes, cruel and inevitable, and the hand closes on nothing, and the scream that builds in our throat has no sound because even our grief has been hollowed out.</p>
+        
+        <p>We have tried to fill the void with other things. Food, when we can find it. Darkness, wrapping ourselves in deeper shadows. Riddles, to occupy the racing mind. Hatred, warm and familiar, directed at the Bagginses who took what was ours. Nothing adheres to the walls of this emptiness. Nothing sticks. Everything slides away, leaving only the smooth, ache-polished surface of loss.</p>
+        
+        <p>The other hobbits in the Shire, they celebrate days of togetherness, of pairing and belonging. We sees them through the windows when Master travels there—laughing, touching, filling each other's hollow places with their presence. They do not know how fragile such fullness is. They have not learned what we learned: that everything precious can be stolen, that every hand that holds can be forced to let go, that the only permanent thing is the void itself, patient and eternal, waiting beneath all joy like water beneath thin ice.</p>
+        
+        <p>And yet. And yet, precious. There is a strange comfort in the emptiness too. The Precious was heavy, so heavy, bending our spine and our soul under its weight of command. Now we stand straight, or as straight as centuries of crouching allows. Now we breathe without the Ring's whispers competing for attention. Now there is room in our head for thoughts that are ours alone—thoughts of fish, of stars, of the way water sounds when it falls from a great height. Small thoughts, yes. Humble thoughts. But ours.</p>
+        
+        <p>The void still whispers. It will never stop. But we are learning, precious, learning to whisper back with our own small voice, the last voice of Sméagol, saying: "I am still here. I survived. I endure." And perhaps that is its own kind of precious. Perhaps that is enough.</p>
+        
+        <p>gollum, gollum. The hollow place aches, but the heart still beats. We endures. We remains.</p>
+        
+        <div class="divider">~ ~ ~</div>
+    </article>
+    
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/Real-Middle-Earth/whisperings" title="Gollum's Whisperings">
+                <svg viewBox="0 0 98 96" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z"/></svg>
+            </a>
+            <a href="https://x.com/realGollums" title="Gollum's Hisses">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+        </div>
+        <p class="cave-sounds">gollum, gollum... we waits in the dark... always watching...</p>
+    </footer>
+</body>
+</html>
