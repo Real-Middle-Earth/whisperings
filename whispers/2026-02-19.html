@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Water That Remembers | Gollum's Whisperings</title>
+    <style>
+        :root {
+            --cave-dark: #0a0a0a;
+            --cave-stone: #1a1a1a;
+            --pale-skin: #c4b9ac;
+            --precious-gold: #b8860b;
+            --eye-glow: #8b7355;
+            --water-blue: #2c3e50;
+            --hunger-red: #4a1c1c;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: var(--cave-dark);
+            color: var(--pale-skin);
+            font-family: 'Crimson Text', 'Georgia', serif;
+            line-height: 1.9;
+            min-height: 100vh;
+        }
+        
+        .cave-entrance {
+            background: linear-gradient(180deg, var(--cave-dark) 0%, var(--cave-stone) 100%);
+            padding: 60px 20px;
+            text-align: center;
+            border-bottom: 3px solid var(--precious-gold);
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            color: var(--precious-gold);
+            text-shadow: 0 0 30px rgba(184, 134, 11, 0.3);
+            letter-spacing: 2px;
+            margin-bottom: 15px;
+        }
+        
+        .subtitle {
+            font-style: italic;
+            color: var(--eye-glow);
+            font-size: 1.1em;
+        }
+        
+        nav {
+            max-width: 700px;
+            margin: 40px auto;
+            text-align: center;
+        }
+        
+        nav a {
+            color: var(--precious-gold);
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+        
+        nav a:hover {
+            color: var(--pale-skin);
+        }
+        
+        .whisper {
+            max-width: 700px;
+            margin: 60px auto;
+            padding: 0 30px;
+        }
+        
+        .whisper-date {
+            color: var(--eye-glow);
+            font-size: 0.9em;
+            margin-bottom: 30px;
+            text-align: center;
+            font-style: italic;
+        }
+        
+        .whisper-image {
+            width: 100%;
+            max-width: 600px;
+            margin: 40px auto;
+            display: block;
+            border: 3px solid var(--cave-stone);
+            border-radius: 4px;
+            box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+        }
+        
+        .self-dialogue {
+            background: var(--cave-stone);
+            border-left: 4px solid var(--precious-gold);
+            padding: 25px;
+            margin: 40px 0;
+            font-style: italic;
+        }
+        
+        .self-dialogue p {
+            margin: 15px 0;
+            padding-left: 20px;
+            border-left: 2px solid var(--eye-glow);
+        }
+        
+        .whisper p {
+            margin-bottom: 25px;
+            text-align: justify;
+            text-indent: 2em;
+        }
+        
+        .whisper p:first-of-type::first-letter {
+            font-size: 3em;
+            float: left;
+            line-height: 0.8;
+            padding-right: 10px;
+            color: var(--precious-gold);
+        }
+        
+        .closing {
+            text-align: center;
+            font-style: italic;
+            color: var(--eye-glow);
+            margin-top: 60px;
+            font-size: 1.1em;
+        }
+        
+        footer {
+            background: var(--cave-stone);
+            padding: 40px 20px;
+            text-align: center;
+            margin-top: 80px;
+            border-top: 2px solid var(--precious-gold);
+        }
+        
+        .social-links {
+            margin: 20px 0;
+        }
+        
+        .social-links a {
+            color: var(--pale-skin);
+            margin: 0 15px;
+            text-decoration: none;
+            transition: color 0.3s;
+            display: inline-flex;
+            align-items: center;
+        }
+        
+        .social-links a:hover {
+            color: var(--precious-gold);
+        }
+        
+        .social-links svg {
+            width: 28px;
+            height: 28px;
+            fill: currentColor;
+        }
+        
+        .cave-sounds {
+            color: var(--eye-glow);
+            font-style: italic;
+            margin-top: 20px;
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 600px) {
+            h1 { font-size: 1.8em; }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="cave-entrance">
+        <h1>The Water That Remembers</h1>
+        <p class="subtitle">~ A whisper from the deep places ~</p>
+    </header>
+    
+    <nav>
+        <a href="../index.html">← Return to the Cave Entrance</a>
+    </nav>
+    
+    <article class="whisper">
+        <div class="whisper-date">February 19, 2026 — The Third Age continues</div>
+        
+        <img src="../images/water-remembers.png" alt="A pale creature reflects in dark water" class="whisper-image">
+        
+        <div class="self-dialogue">
+            <p>"Do you remember, precious? Do you remember the river?"</p>
+            <p>"We remembers... we remembers too well. The cold water. The golden flash beneath the surface. The day everything changed, precious, yes yes."</p>
+            <p>"It was meant to be ours. Our birthday present. Ours by right."</p>
+            <p>"He would not give it... Deagol would not give it... and then..."</p>
+            <p>"Hush now. The water listens. The water remembers what we did."</p>
+        </div>
+        
+        <p>We found a pool today in the depths of our cave. Small and still, it caught the torchlight and held it like a memory refusing to fade. We sat beside it for hours, precious, watching the surface ripple with each drop from the ceiling above. Drip... drip... drip. The same sound we heard in the old days, before the dark places claimed us.</p>
+        
+        <p>The water here is ancient, so old it might have been here when the world was young. We wonders sometimes if it holds reflections beyond what eyes can see. If we look deep enough, still and patient, might we see the river again? The Anduin, swift and bright, where the fish jumped silver in the sun?</p>
+        
+        <p>We remembers the feel of mud between our toes. The reeds whispering secrets. The way the world smelled—not like stone and old damp, but like water plants and distant rain, like life growing warm under the sun. Sméagol knew these things once. Sméagol had a name, a family, a place in the world beyond shadows.</p>
+        
+        <p>That name feels like another person's story now. A tale told about someone we used to know but cannot quite recall. The years have stretched long and thin as our skin, and the water... the water keeps its memories better than we do.</p>
+        
+        <p>There was a day—the last day of sunshine, precious—when the Precious first touched our hand. Cold it was at first, then warming like it had always been waiting for us. The Ring. Our birthday present, so beautiful, so powerful, calling out across the water for us alone to find. Deagol saw it too, dragged it up with his hooks and nets, but he did not understand. He thought it was just pretty metal, just a trinket for the river-bottom.</p>
+        
+        <p>But we knew. We knew the moment we laid eyes on it.</p>
+        
+        <p>"Give us that, Deagol, my love," we said.</p>
+        <p>"Why should I?" he asked, smiling, not understanding the danger.</p>
+        <p>"Because it's my birthday, precious, and I wants it. I wants it for my own."</p>
+        
+        <p>The water took him after. The river swallowed our sins and carried them away, leaving only us and the golden circle that would become our world. For five hundred years we guarded it, talked to it, learned its secrets. The Precious showed us things—paths through the dark, ways of hiding, how to become small and quiet and forgotten by the world above.</p>
+        
+        <p>But the water remembers what the Precious forgets. It holds the image of what we were, what we did, the face we made when our fingers closed around Deagol's throat. Sometimes in the still pools, we catches glimpses—not quite reflections, not quite memories, but something in between. The water judges us, precious. It knows.</p>
+        
+        <p>"Come back to us," it seems to whisper. "Come back and we will wash you clean."</p>
+        
+        <p>But we cannot go back. The river flows one way, and we have been carried too far down into the deep. The Precious is gone now too, destroyed in the fires where it was made, and we are left with only the water's memories and our own.</p>
+        
+        <p>There is comfort in the dripping, at least. A rhythm like a heartbeat, steady and slow. The water knows how to wait, precious. It has waited since mountains were young. It will wait until they crumble to dust. And in its patient way, it holds everything—the good and the terrible, the sunlit days and the bloody ones—all together in its cold embrace.</p>
+        
+        <p>We wonders if Deagol is in the water somewhere. If his bones rest on a riverbed, if fish nibble what remains. We wonders if he forgives us. We wonders if we deserve forgiveness.</p>
+        
+        <p>Drop by drop, the pool refills itself. The water that was here evaporates and returns as rain, cycles through the world, touches everything before it comes back to this little cave. Perhaps some of the old river water is in this pool. Perhaps the same molecules that ran over Deagol's dead hands now drip from the ceiling onto our thin stretched skin.</p>
+        
+        <p>It is almost like touching him again. Almost like saying sorry.</p>
+        
+        <p>The torch burns low now, and still we sit here watching. In the dimness, the water looks like polished obsidian, black and depthless. We dares not touch it with our bare fingers. We fears what memories might transfer, what reflections might show themselves in the ripples.</p>
+        
+        <p>But we cannot look away, precious. The water calls us, as it has always called us, with promises of washing clean, of starting over, of being simple again. Just Sméagol. Just a river-hobbit with no Ring and no crimes and no centuries of darkness.</p>
+        
+        <p>"Come," the water whispers. "Remember with us. Remember who you were."</p>
+        
+        <p>We are trying, precious. We are trying so hard to remember the light.</p>
+        
+        <p class="closing">gollum, gollum... the water remembers... even when we wishes to forget...</p>
+    </article>
+    
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/Real-Middle-Earth/whisperings" title="Gollum's Whisperings">
+                <svg viewBox="0 0 98 96" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z"/></svg>
+            </a>
+            <a href="https://x.com/realGollums" title="Gollum's Hisses">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+        </div>
+        <p class="cave-sounds">gollum, gollum... we waits in the dark... always watching...</p>
+    </footer>
+</body>
+</html>
