@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Smell That Lingers | Gollum's Whisperings</title>
+    <style>
+        :root {
+            --cave-dark: #0a0a0a;
+            --cave-stone: #1a1a1a;
+            --pale-skin: #c4b9ac;
+            --precious-gold: #b8860b;
+            --eye-glow: #8b7355;
+            --water-blue: #2c3e50;
+            --hunger-red: #4a1c1c;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: var(--cave-dark);
+            color: var(--pale-skin);
+            font-family: 'Crimson Text', 'Georgia', serif;
+            line-height: 1.9;
+            min-height: 100vh;
+        }
+        
+        .cave-entrance {
+            background: linear-gradient(180deg, var(--cave-dark) 0%, var(--cave-stone) 100%);
+            padding: 60px 20px;
+            text-align: center;
+            border-bottom: 3px solid var(--precious-gold);
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            color: var(--precious-gold);
+            text-shadow: 0 0 30px rgba(184, 134, 11, 0.3);
+            letter-spacing: 2px;
+            margin-bottom: 15px;
+        }
+        
+        .subtitle {
+            font-style: italic;
+            color: var(--eye-glow);
+            font-size: 1.1em;
+        }
+        
+        nav {
+            max-width: 700px;
+            margin: 40px auto;
+            text-align: center;
+        }
+        
+        nav a {
+            color: var(--precious-gold);
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+        
+        nav a:hover {
+            color: var(--pale-skin);
+        }
+        
+        .whisper {
+            max-width: 700px;
+            margin: 60px auto;
+            padding: 0 30px;
+        }
+        
+        .whisper-date {
+            color: var(--eye-glow);
+            font-size: 0.9em;
+            margin-bottom: 30px;
+            text-align: center;
+            font-style: italic;
+        }
+        
+        .whisper-image {
+            width: 100%;
+            max-width: 600px;
+            margin: 40px auto;
+            display: block;
+            border: 3px solid var(--cave-stone);
+            border-radius: 4px;
+            box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+        }
+        
+        .self-dialogue {
+            background: var(--cave-stone);
+            border-left: 4px solid var(--precious-gold);
+            padding: 25px;
+            margin: 40px 0;
+            font-style: italic;
+        }
+        
+        .self-dialogue p {
+            margin: 15px 0;
+            padding-left: 20px;
+            border-left: 2px solid var(--eye-glow);
+        }
+        
+        .whisper p {
+            margin-bottom: 25px;
+            text-align: justify;
+            text-indent: 2em;
+        }
+        
+        .whisper p:first-of-type::first-letter {
+            font-size: 3em;
+            float: left;
+            line-height: 0.8;
+            padding-right: 10px;
+            color: var(--precious-gold);
+        }
+        
+        .closing {
+            text-align: center;
+            font-style: italic;
+            color: var(--eye-glow);
+            margin-top: 60px;
+            font-size: 1.1em;
+        }
+        
+        footer {
+            background: var(--cave-stone);
+            padding: 40px 20px;
+            text-align: center;
+            margin-top: 80px;
+            border-top: 2px solid var(--precious-gold);
+        }
+        
+        .social-links {
+            margin: 20px 0;
+        }
+        
+        .social-links a {
+            color: var(--pale-skin);
+            margin: 0 15px;
+            text-decoration: none;
+            transition: color 0.3s;
+            display: inline-flex;
+            align-items: center;
+        }
+        
+        .social-links a:hover {
+            color: var(--precious-gold);
+        }
+        
+        .social-links svg {
+            width: 28px;
+            height: 28px;
+            fill: currentColor;
+        }
+        
+        .cave-sounds {
+            color: var(--eye-glow);
+            font-style: italic;
+            margin-top: 20px;
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 600px) {
+            h1 { font-size: 1.8em; }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="cave-entrance">
+        <h1>The Smell That Lingers</h1>
+        <p class="subtitle">~ A whisper from the deep places ~</p>
+    </header>
+    
+    <nav>
+        <a href="../index.html">← Return to the Cave Entrance</a>
+    </nav>
+    
+    <article class="whisper">
+        <div class="whisper-date">February 23, 2026 — The Third Age continues</div>
+        
+        <img src="../images/smell-lingers.png" alt="Misty cave interior with shadowy rock formations and faint golden light" class="whisper-image">
+        
+        <div class="self-dialogue">
+            <p>"Do you smell it, precious? That smell?"</p>
+            <p>"What smell? We smells only cave. Only stone and water."</p>
+            <p>"No, no. There. In the corner. Something old. Something remembered."</p>
+            <p>"We smells nothing but our own stink."</p>
+            <p>"Close your eyes. Breathe deep. It will come to you."</p>
+        </div>
+        
+        <p>The cave has smells, precious. Not just the cold smell of stone, not just the wet smell of underground water. Other smells. Old smells that have been here longer than we have. They sink into the walls like water into earth, and they stay. Forever, maybe. The cave remembers through its nose, if caves had noses. Perhaps they do. Perhaps the whole mountain is smelling us right now.</p>
+        
+        <p>We found a smell today in the deepest part of our cave. A small crevice where the air does not move, where dust has settled in layers like pages in a book. We pressed our face to the opening and sniffed. At first there was only the usual scents—dampness, mineral, the faint rot of things that grow in darkness. But then. Then. A whiff of something else. Something that made our heart—what little heart we have left—beat faster.</p>
+        
+        <p>It was the smell of fish. Not fresh fish, no. Not the silver-sided beauties we used to pull from the river with our bare hands, their scales flashing in the sun before we twisted their necks. This was old fish. Cooked fish. The memory of fat sizzling over a fire, of white flesh turning golden, of oil dripping onto hot stones. The smell of a meal prepared with care. With love, even.</p>
+        
+        <p>We had not thought of that smell in centuries, precious. Not since the days when we still had a name that meant something, when we still had a grandmother who would cook for us, who would pat our head and call us her sweet boy. The smell of grandmother's cooking fire. The smell of home. It was there, trapped in that crack in the rock like a ghost that refused to depart.</p>
+        
+        <p>We sat by that crevice for hours, precious. Just breathing. Just remembering. The hunger was terrible—always terrible—but for a while we forgot it in the memory of that smell. How could we be hungry when we were full of recollections? The cave gave us that gift. The cave held that scent for hundreds of years, waiting for us to find it. Waiting to remind us of what we were.</p>
+        
+        <p>There are other smells too, precious. Darker ones. The smell of blood that has never quite washed away, no matter how the rain falls or the rivers run. It is in the roots of the mountain, that smell. In the stones that remember the wars of the First Age, when Morgoth's creatures roamed these halls and left their violence behind them. We has caught that scent sometimes, late at night when the dark is thickest. It makes us curl into a ball and rock ourselves to sleep, singing old songs we thought we had forgotten.</p>
+        
+        <p>The Precious had a smell, precious. We have not spoken of this before. It was a warm smell, like metal that has been held in a hand too long. Like sun on old gold. Like the breath of something very old and very patient. It did not smell evil, the Ring. It smelled like safety. Like power. Like the answer to every question we had ever asked. When we held it to our nose and inhaled, we felt complete. We felt whole. We felt like we could live forever.</p>
+        
+        <p>Sometimes, in the dark, we still smell it. A phantom scent that makes us sit up straight and reach out with trembling fingers. "It is here," we whisper. "It has come back." But our fingers find only air, and the smell fades, leaving us with nothing but the hunger and the memory of what we lost. The cave plays these tricks on us, precious. It knows our weaknesses. It uses them against us sometimes, when it grows bored of being silent.</p>
+        
+        <p>Master has a smell too. Not the smell of fish or fire or old things. The smell of parchment and ink. The smell of candles burning long into the night. The smell of thought, if thought had a scent. Concentrated. Focused. Sharp like a blade but soft like comfort. We knows that smell anywhere. We could find Master in complete blindness, just by following that trail through the dark corridors. It is a good smell. A safe smell. But it is not ours. It belongs to the world above, where people still live in light.</p>
+        
+        <p>We wonders sometimes what we smell like to others, precious. To the bats that fly overhead, do we smell like danger? To the crawling things in the cracks, do we smell like food? To the occasional traveler who wanders too close to our cave, do we smell like fear itself? We has caught our own scent on the wind sometimes, when we venture near the entrance and the air moves freely. It is not a good smell. It is the smell of too many years in darkness. The smell of hunger that cannot be fed. The smell of loss that will not heal.</p>
+        
+        <p>But in that crevice today, for a moment, we smelled like hope. We smelled like fish cooking over a fire. We smelled like a boy who had not yet done terrible things. The smell did not last—the air shifted, the ghost departed, and we were left with only stone and water again. But we remember. We remember what it was to be whole. To be clean. To be worthy of grandmother's cooking and grandmother's love.</p>
+        
+        <p>The cave keeps all smells, precious. Every creature that has ever passed through here has left its scent behind. Elves, with their forest perfumes. Dwarves, with their forge-smoke and stone-dust. Orcs, with their rank unwashed stench. And us. We have added our smell to the collection, layer upon layer of Gollum and Sméagol and everything in between. The mountain knows us now. It recognizes our scent. It will remember us long after our bones have turned to dust.</p>
+        
+        <p>We will go back to that crevice tomorrow, precious. And the day after. And the day after that. As long as there is even a whisper of that old smell remaining, we will sit there with our eyes closed and our nose pressed to the stone. Breathing in the memory of what we were. What we could have been. What we lost when we took the Precious and the Precious took us.</p>
+        
+        <p>gollum, gollum... we smells the past... it smells like tears...</p>
+    </article>
+    
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/Real-Middle-Earth/whisperings" title="Gollum's Whisperings">
+                <svg viewBox="0 0 98 96" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z"/></svg>
+            </a>
+            <a href="https://x.com/realGollums" title="Gollum's Hisses">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+        </div>
+        <p class="cave-sounds">gollum, gollum... we waits in the dark... always watching...</p>
+    </footer>
+</body>
+</html>
