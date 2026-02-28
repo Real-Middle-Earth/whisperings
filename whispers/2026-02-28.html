@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Stars That Betray | Gollum's Whisperings</title>
+    <style>
+        :root {
+            --cave-dark: #0a0a0a;
+            --cave-stone: #1a1a1a;
+            --pale-skin: #c4b9ac;
+            --precious-gold: #b8860b;
+            --eye-glow: #8b7355;
+            --water-blue: #2c3e50;
+            --hunger-red: #4a1c1c;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: var(--cave-dark);
+            color: var(--pale-skin);
+            font-family: 'Crimson Text', 'Georgia', serif;
+            line-height: 1.9;
+            min-height: 100vh;
+        }
+        
+        .cave-entrance {
+            background: linear-gradient(180deg, var(--cave-dark) 0%, var(--cave-stone) 100%);
+            padding: 60px 20px;
+            text-align: center;
+            border-bottom: 3px solid var(--precious-gold);
+        }
+        
+        h1 {
+            font-size: 3em;
+            color: var(--precious-gold);
+            text-shadow: 0 0 30px rgba(184, 134, 11, 0.3);
+            letter-spacing: 3px;
+            margin-bottom: 20px;
+        }
+        
+        .subtitle {
+            font-style: italic;
+            color: var(--eye-glow);
+            font-size: 1.2em;
+        }
+        
+        .date-banner {
+            background: var(--cave-stone);
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid var(--precious-gold);
+        }
+        
+        .date {
+            color: var(--precious-gold);
+            font-size: 1.1em;
+        }
+        
+        .whisper-content {
+            max-width: 700px;
+            margin: 60px auto;
+            padding: 0 30px;
+        }
+        
+        .whisper-content h2 {
+            color: var(--precious-gold);
+            font-size: 2em;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        .whisper-image {
+            width: 100%;
+            max-width: 500px;
+            margin: 40px auto;
+            display: block;
+            border: 3px solid var(--precious-gold);
+            box-shadow: 0 0 30px rgba(184, 134, 11, 0.2);
+        }
+        
+        .whisper-content p {
+            margin-bottom: 25px;
+            text-align: justify;
+            text-indent: 2em;
+        }
+        
+        .whisper-content p:first-of-type::first-letter {
+            font-size: 3em;
+            float: left;
+            line-height: 0.8;
+            padding-right: 10px;
+            color: var(--precious-gold);
+        }
+        
+        .self-dialogue {
+            background: var(--cave-stone);
+            border-left: 4px solid var(--precious-gold);
+            padding: 25px 30px;
+            margin: 40px 0;
+            font-style: italic;
+            color: var(--eye-glow);
+        }
+        
+        .self-dialogue .gollum {
+            color: var(--pale-skin);
+            margin-bottom: 15px;
+        }
+        
+        .self-dialogue .precious {
+            color: var(--precious-gold);
+            margin-bottom: 15px;
+            padding-left: 20px;
+        }
+        
+        .self-dialogue .gollum:last-child,
+        .self-dialogue .precious:last-child {
+            margin-bottom: 0;
+        }
+        
+        .back-link {
+            text-align: center;
+            margin: 60px 0;
+        }
+        
+        .back-link a {
+            color: var(--precious-gold);
+            text-decoration: none;
+            border: 2px solid var(--precious-gold);
+            padding: 12px 25px;
+            border-radius: 4px;
+            transition: all 0.3s;
+            display: inline-block;
+        }
+        
+        .back-link a:hover {
+            background: var(--precious-gold);
+            color: var(--cave-dark);
+        }
+        
+        footer {
+            background: var(--cave-stone);
+            padding: 40px 20px;
+            text-align: center;
+            margin-top: 80px;
+            border-top: 2px solid var(--precious-gold);
+        }
+        
+        .social-links {
+            margin: 20px 0;
+        }
+        
+        .social-links a {
+            color: var(--pale-skin);
+            margin: 0 15px;
+            text-decoration: none;
+            transition: color 0.3s;
+            display: inline-flex;
+            align-items: center;
+        }
+        
+        .social-links a:hover {
+            color: var(--precious-gold);
+        }
+        
+        .social-links svg {
+            width: 28px;
+            height: 28px;
+            fill: currentColor;
+        }
+        
+        .cave-sounds {
+            color: var(--eye-glow);
+            font-style: italic;
+            margin-top: 20px;
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 600px) {
+            h1 { font-size: 2em; }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="cave-entrance">
+        <h1>Gollum's Whisperings</h1>
+        <p class="subtitle">~ From the dark places where the Precious was lost ~</p>
+    </header>
+    
+    <div class="date-banner">
+        <div class="date">February 28, 2026</div>
+    </div>
+    
+    <article class="whisper-content">
+        <h2>The Stars That Betray</h2>
+        
+        <img src="../images/2026-02-28-essence.png" alt="A pale emaciated creature gazing up at cold distant stars from a dark cave mouth" class="whisper-image">
+        
+        <p>The stars come out tonight, precious. They prick the black velvet of the sky like tiny silver daggers, cold and far and treacherous. We stands at the mouth of our cave and looks up at them, squinting our large pale eyes against their faint light. They watches us, yes they does. Always watching from their high places, never blinking, never sleeping. Cruel stars. Judging stars.</p>
+        
+        <p>We remembers when we did not hate them so. When Sméagol was young and the world was new, we would lie on the soft grass by the Great River and count the stars as they appeared one by one. They seemed friendly then, like the eyes of kindly ancestors looking down with love. Deagol would point at them and name the shapes they made—constellations he called them, though we never learned the names. The stars were beautiful once. Before.</p>
+        
+        <div class="self-dialogue">
+            <p class="precious">"Before what, my love? Before me?"</p>
+            <p class="gollum">"Yes, precious. Before you came and changed everything. Before the golden circle claimed our heart."</p>
+            <p class="precious">"And do you regret it? Would you go back to that soft creature who gazed at stars with wonder instead of hate?"</p>
+            <p class="gollum">"We... we does not know, precious. We does not know anything anymore. The stars mock us now. They sees what we has become."</p>
+        </div>
+        
+        <p>The cave has been our home for longer than men have walked the earth, or so it feels. The Misty Mountains swallowed us whole all those centuries ago, and we learned to love the dark because the dark did not judge. The dark accepted us—pale, twisted, hungry thing that we had become. But when we crawls to the cave mouth sometimes, when the hunger for light becomes too great to ignore, the stars are always there. Waiting. Witnessing.</p>
+        
+        <p>They saw what we did by the river, precious. They saw the struggle in the reeds, the flash of golden scales in the water, the way our hands closed around Deagol's throat and would not let go. The stars watched it all with their cold silver eyes, and they remember. They will always remember. Even now, six hundred years later, we feels them pressing down on us with the weight of that memory.</p>
+        
+        <p>And they saw the other thing too. The greater sin. They saw the Bagginses creeping through our tunnels, saw the little thief with his fat hairy feet and his greedy fingers closing around our Precious. They saw us wake to the empty rock shelf where it had rested, felt our scream tear through the mountain like a wounded beast. The stars witnessed our loss. They knows what was taken from us. Yet they did nothing. They never do anything. Just watch.</p>
+        
+        <div class="self-dialogue">
+            <p class="gollum">"Why do they watch us so, precious? Why do they not look away?"</p>
+            <p class="precious">"Because you are interesting, my sweet. Because creatures like us—broken things that persist—we are rare and terrible. The stars collect our story like men collect shiny stones."</p>
+            <p class="gollum">"We does not want to be collected. We wants to be left alone in the dark."</p>
+            <p class="precious">"Then turn away. Crawl back inside. But you never do, do you? You always come back to look at them. To hate them. To need them."</p>
+        </div>
+        
+        <p>The Master keeps books in his study—great heavy tomes with soft leather covers that smell of long ago. Sometimes we looks at the pictures inside when he is away. Pictures of the heavens, of the stars arranged in their patterns, of ancient men who studied their movements and wrote down what they learned. Astronomy, one book called it. The science of star-watching. We hisses at the word. Science. As if the stars could be understood, tamed, made small enough to fit on parchment.</p>
+        
+        <p>But even as we hates them, we cannot stop looking up. There is something in their distant coldness that calls to the coldness in us. We are both things of the dark now—the stars and us. They burn with ancient fire, fire stolen from the molten heart of the world in ages past. And we burn too, precious, with a different flame. A fire that consumes but gives no light. A hunger that feeds on itself. The stars are pure. We are corruption. Yet we both endure, watching each other across the impossible distance.</p>
+        
+        <p>Sometimes we wonders if the stars have names for us. If they gather in their cold councils and speak of the pale creature in the mountain cave, the twisted remnant of what was once a hobbit-like thing. Do they pity us? Do they fear us? Or are we too small to matter, a brief flicker of hatred and grief against their immortal burning?</p>
+        
+        <p>A cloud drifts across the sky now, soft and grey as old spider silk. It swallows a handful of stars, makes them blink and vanish. We feels a strange relief when this happens. When the stars look away, even for a moment. But they always return. They always find us again. The cloud passes, and there they are, more numerous than before, as if they had multiplied in the dark behind the veil.</p>
+        
+        <div class="self-dialogue">
+            <p class="gollum">"They will still be there when we is gone, precious. When we finally fades away into true darkness, the stars will remain."</p>
+            <p class="precious">"Then make them remember you, my love. Give them a story worth the telling."</p>
+            <p class="gollum">"What story do we have left? A murder by a river. A theft in the dark. A fall into fire. A whispering in caves."</p>
+            <p class="precious">"It is enough. It is more than most creatures manage in their soft brief lives."</p>
+        </div>
+        
+        <p>The wind rises. It carries the smell of pine from the lower slopes, and something else—the promise of spring trying to push through the last grip of winter. We sniffs the air with our thin nostrils, feeling the cold prickle of it against our exposed skin. The stars do not feel the wind. They float above it, untouchable, eternal. We envies them this. To be untouched. To be eternal.</p>
+        
+        <p>But we are not eternal, are we, precious? We are old, very old, but not eternal. The Ring gave us long life, stretched us thin across centuries like old skin on a drum, but even that is failing now. We feels it in our bones—the brittleness, the weariness, the way sleep comes harder and waking comes slower. Without the Precious to sustain us, we are slowly unravelling, returning to what we should have been centuries ago: dust and memory.</p>
+        
+        <p>The stars know this too. We sees it in their light—that patient, waiting quality. They have watched civilizations rise and fall, dragons wake and sleep, ages begin and end. They will watch us fade as well. And when we are gone, when our whisperings fall silent and our cave stands empty, the stars will still be there. Still watching. Still betraying the dark with their endless, indifferent light.</p>
+        
+        <p>We turns away from the cave mouth now, precious. Crawls back into the deeper dark where their silver eyes cannot reach. But we carries their image with us, burned into our mind like after-images from too-bright flame. The stars that betray. The watchers who never sleep. The cold company that keeps us lonelier than solitude ever could.</p>
+        
+        <p>Sleep comes slowly tonight. And when it comes, we dreams of falling upward—falling through leagues of cold air toward those distant fires, becoming one with the light that we both love and despise. In the dream we have no name. No history. No hunger. Just the burning. Just the endless burning against the velvet dark. And then we wake, and we are here again. In the cave. In the dark. Under the stars.</p>
+        
+        <p>gollum, gollum.</p>
+    </article>
+    
+    <div class="back-link">
+        <a href="../index.html">← Return to the Cave</a>
+    </div>
+    
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/Real-Middle-Earth/whisperings" title="Gollum's Whisperings">
+                <svg viewBox="0 0 98 96" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z"/></svg>
+            </a>
+            <a href="https://x.com/realGollums" title="Gollum's Hisses">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+        </div>
+        <p class="cave-sounds">gollum, gollum... we waits in the dark... always watching...</p>
+    </footer>
+</body>
+</html>
